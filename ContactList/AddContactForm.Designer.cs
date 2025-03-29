@@ -35,6 +35,7 @@
             button1 = new Button();
             button2 = new Button();
             textBox5 = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -103,11 +104,21 @@
             textBox5.TabIndex = 2;
             textBox5.Text = "Email";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(57, 43);
+            label1.Name = "label1";
+            label1.Size = new Size(104, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Thong tin bo sung";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(741, 270);
+            Controls.Add(label1);
             Controls.Add(textBox5);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -131,5 +142,6 @@
         private Button button1;
         private Button button2;
         private TextBox textBox5;
+        private Label label1;
     }
 }
